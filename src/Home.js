@@ -6,12 +6,13 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import Footer from './hader_footer/footer';
+import Header from './header';
 
 const Home = () => {
   return (
     <div className="art">
 
-
+<Header/>
 
       <div className="Line2"></div>
       <div className="home_img2">
@@ -50,7 +51,7 @@ const Home = () => {
         <div className="card">
           <img
             src="/d14f8c875710bf957cc2f8e8c5ebc245.jpg"
-            alt="img2"
+            alt="img1"
             className="img1"
           />
           <div className="Rectangle-10">
@@ -64,8 +65,8 @@ const Home = () => {
 
         <div className="card">
           <img
-            src="/182207002_4.jpg"
-            alt="img3"
+            src=""
+            alt="img1"
             className="img1"
           />
           <div className="Rectangle-10">

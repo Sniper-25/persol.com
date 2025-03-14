@@ -58,7 +58,7 @@ const Login = () => {
             Login
           </button>
 
-          <Link to="/for" href="#" className="forgot-password" onClick={handleForgotPassword}>
+          <Link to="/forg" href="#" className="forgot-password" onClick={handleForgotPassword}>
             Forgot Password?
           </Link>
 

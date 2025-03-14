@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Register.css";
-import Header from "../../hader_footer/header_login";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { faLock } from '@fortawesome/free-solid-svg-icons';

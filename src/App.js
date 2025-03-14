@@ -18,7 +18,7 @@ function App() {
             <Layout>
                 <Routes>
 
-                    <Route path='/' element={<Home />}></Route>
+                    <Route path='/home' element={<Home />}></Route>
                     <Route path='/about' element={<About />}></Route>
                     <Route path='/feed' element={<Feed />}></Route>
                     <Route path='/contact' element={<ContactUs />}></Route>
@@ -27,7 +27,7 @@ function App() {
                     <Route path='/Loc' element={<Loc />}></Route>
                     <Route path='/foo' element={<Footer />}></Route>
                     <Route path='/re' element={<Register />}></Route>
-                    <Route path='/for' element ={<LoginFor/>}></Route>
+                    <Route path='/forg' element ={<LoginFor/>}></Route>
                 </Routes>
             </Layout>
         </Router>
