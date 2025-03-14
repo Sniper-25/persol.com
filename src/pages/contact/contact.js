@@ -32,7 +32,7 @@ const ContactUs = () => {
         <p>If you have any questions, feel free to reach out to us.</p>
 
         <div className="contact-info">
-          <a  id="end"> href="mailto:persol@gmail.com">  <FontAwesomeIcon icon={faEnvelope} id='foont_1' /><strong>Email : </strong>parsoll@gmail.com</a><br />
+          <a  id="end" href="mailto:persol@gmail.com">  <FontAwesomeIcon icon={faEnvelope} id='foont_1' /><strong>Email : </strong>parsoll@gmail.com</a><br />
 
 
          <a href="https://wa.me/+967778088098?text=Hi+Fares" id="end">  <FontAwesomeIcon icon={faPhoneFlip} id='foont_1' /><strong>Phone : </strong>+967778088098</a><br />
