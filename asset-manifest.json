@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/persol.com/static/css/main.fa1a73c0.css",
+    "main.css": "/persol.com/static/css/main.48faa6e4.css",
     "main.js": "/persol.com/static/js/main.8ec7e84a.js",
     "static/js/453.60634ccf.chunk.js": "/persol.com/static/js/453.60634ccf.chunk.js",
     "static/media/jpg": "/persol.com/static/media/5e88e483f13d1dee1a0bf4b4ed0644a2.7462a2881f8975ef7cf7.jpg",
@@ -14,12 +14,12 @@
     "static/media/image10.png": "/persol.com/static/media/image10.150428cc999e55cd4dd1.png",
     "static/media/image11.png": "/persol.com/static/media/image11.931a05f6b0dcdd912e1f.png",
     "index.html": "/persol.com/index.html",
-    "main.fa1a73c0.css.map": "/persol.com/static/css/main.fa1a73c0.css.map",
+    "main.48faa6e4.css.map": "/persol.com/static/css/main.48faa6e4.css.map",
     "main.8ec7e84a.js.map": "/persol.com/static/js/main.8ec7e84a.js.map",
     "453.60634ccf.chunk.js.map": "/persol.com/static/js/453.60634ccf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa1a73c0.css",
+    "static/css/main.48faa6e4.css",
     "static/js/main.8ec7e84a.js"
   ]
 }
