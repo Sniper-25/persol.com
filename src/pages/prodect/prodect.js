@@ -1,6 +1,6 @@
 import React from "react";
 import "./prodect.css"; // Ensure this CSS file is linked
-import Header from "../../hader_footer/header_pro";
+
 import Footer from "../../hader_footer/footer";
 const Product = () => {
   const handleShopNow = (brand) => {

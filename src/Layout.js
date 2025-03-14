@@ -1,6 +1,6 @@
 import react, { Children } from "react";
 import { useLocation } from "react-router-dom";
-import Header from "./hader_footer/header";
+import Header from "./header";
 import HeaderAbout from "./hader_footer/header_about";
 import HeaderCon from "./hader_footer/header_con";
 import HeaderFeed from "./hader_footer/header_feed";
