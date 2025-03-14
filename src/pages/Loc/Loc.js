@@ -55,18 +55,8 @@ const Loc = () => {
                 phone="+967778088098"
                 email="persol@gmail.com"
               />
-              <OfficeSection
-                title="N Central Ave Address"
-                location="30 Streat, Sana'a"
-                phone="+967775798518"
-                email="persol@gmail.com"
-              />
-              <OfficeSection
-                title="N Central Ave Address"
-                location="alsonena street, Sana'a"
-                phone="+967775798518"
-                email="persol@gmail.com"
-              />
+              
+              
             </article>
 
             <article className="business-hours">
