@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/persol.com/static/css/main.e54feb77.css",
-    "main.js": "/persol.com/static/js/main.855a1750.js",
+    "main.css": "/persol.com/static/css/main.15dff4c7.css",
+    "main.js": "/persol.com/static/js/main.e06b5193.js",
     "static/js/453.60634ccf.chunk.js": "/persol.com/static/js/453.60634ccf.chunk.js",
     "static/media/jpg": "/persol.com/static/media/5e88e483f13d1dee1a0bf4b4ed0644a2.7462a2881f8975ef7cf7.jpg",
     "static/media/9d0b7f3DTEDSM00001361_1.jpg": "/persol.com/static/media/9d0b7f3DTEDSM00001361_1.4b3317e201cb41a50e53.jpg",
@@ -9,12 +9,12 @@
     "static/media/Picsart_25-02-15_21-32-18-033.png": "/persol.com/static/media/Picsart_25-02-15_21-32-18-033.595157e8244a6465f2bf.png",
     "static/media/depositphotos_9082584-stock-photo-feedback-process 1.png": "/persol.com/static/media/depositphotos_9082584-stock-photo-feedback-process 1.aaa4351af05c9cf898dc.png",
     "index.html": "/persol.com/index.html",
-    "main.e54feb77.css.map": "/persol.com/static/css/main.e54feb77.css.map",
-    "main.855a1750.js.map": "/persol.com/static/js/main.855a1750.js.map",
+    "main.15dff4c7.css.map": "/persol.com/static/css/main.15dff4c7.css.map",
+    "main.e06b5193.js.map": "/persol.com/static/js/main.e06b5193.js.map",
     "453.60634ccf.chunk.js.map": "/persol.com/static/js/453.60634ccf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e54feb77.css",
-    "static/js/main.855a1750.js"
+    "static/css/main.15dff4c7.css",
+    "static/js/main.e06b5193.js"
   ]
 }
