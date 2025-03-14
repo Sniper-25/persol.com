@@ -34,11 +34,12 @@ const Home = () => {
 
       <div className="Rectangle-8">
         <div className="card">
-          <img
-            src="/5c745b1d188e2142d3117dbd7581bed4.jpg"
-            alt="img1"
-            className="img1"
-          />
+          
+        <div
+        
+        className="img1"
+      />
+      
           <div className="Rectangle-10">
             <h3 className="TEXT-BOX">RAY-BAN</h3>
             <h6 className="TEXT-BOX-U">
@@ -49,11 +50,12 @@ const Home = () => {
         </div>
 
         <div className="card">
-          <img
-            src="/d14f8c875710bf957cc2f8e8c5ebc245.jpg"
-            alt="img1"
-            className="img1"
+       
+          <div
+        
+            className="img2"
           />
+      
           <div className="Rectangle-10">
             <h3 className="TEXT-BOX">DIOR</h3>
             <h6 className="TEXT-BOX-U">
@@ -64,10 +66,9 @@ const Home = () => {
         </div>
 
         <div className="card">
-          <img
-            src=""
-            alt="img1"
-            className="img1"
+          <div
+        
+            className="img3"
           />
           <div className="Rectangle-10">
             <h3 className="TEXT-BOX">OAKLEY</h3>
@@ -105,10 +106,8 @@ const Home = () => {
 
             <div className="card1">
               <h3 className="TEXT-BOX1">RAY-BAN</h3>
-              <img
-                src="/d2fc29eae8b6662aecec98537139d14d.jpg"
-                alt="img1_1"
-                className="img11"
+              <div
+                className="img11_1"
               />
               <div className="Rectangle-10_1">
 
@@ -124,12 +123,10 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="card1">
+            <div className="card2">
               <h3 className="TEXT-BOX1">DIOR</h3>
-              <img
-                src="/507b9d0e1ad9d33e9c6659b1d35c25e.jpg"
-                alt="img2_1"
-                className="img11"
+              <div
+                className="img11_2"
               />
               <div className="Rectangle-10_1">
 
@@ -144,22 +141,41 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="card1">
+            <div className="card3">
               <h3 className="TEXT-BOX1">OAKLEY<br />
               </h3>
               <img
-                src="/522db309d9d260e6b7f2b49d4782bc8f.jpg"
-                alt="img2_2"
-                className="img11"
+                className="img11_3"
               />
               <div className="Rectangle-10_1">
 
                 <div className="TEXT-BOX-U1">
-                  <b id="TextSpical">Brand:</b> RAY-BAN<br />
+                  <b id="TextSpical">Brand:</b> OAKLEY<br />
                   <b id="TextSpical">Model:</b> Classic Round<br />
                   <b id="TextSpical">Type:</b> Polarized Sunglasses<br />
                   <b id="TextSpical">Price:</b> &lt;$999&gt;<br />
                   <b id="TextSpical">Offer:</b> $899
+                </div>
+                <a href="#" className="button-small1">
+                  SORT
+
+                </a>
+              </div>
+            </div>
+            <div className="card4">
+              <h3 className="TEXT-BOX1">Round<br />
+              </h3>
+              <img
+                className="img11_3"
+              />
+              <div className="Rectangle-10_1">
+
+                <div className="TEXT-BOX-U1">
+                  <b id="TextSpical">Brand:</b> Round<br />
+                  <b id="TextSpical">Model:</b> Classic Round<br />
+                  <b id="TextSpical">Type:</b> Polarized Sunglasses<br />
+                  <b id="TextSpical">Price:</b> &lt;$600&gt;<br />
+                  <b id="TextSpical">Offer:</b> $500
                 </div>
                 <a href="#" className="button-small1">
                   SORT
@@ -238,7 +254,7 @@ const Home = () => {
             <div className='Rectangle_up'></div>
             <div className="img-05"></div>
             <div className="Rectangle-22_1">
-              <div className="text-pre">Prescription available<br /> Sunglasses</div>
+              <div className="text-pre">Prescription available<br /> Roundglasses</div>
 
               <a href='#' className="Rectangle-23">
 

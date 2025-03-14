@@ -2,7 +2,9 @@
 .clearfix {
     clear: both;
 }
-
+body{
+    margin-top: 6rem;
+  }
 /* Start Location */
 .contact {
     margin-top: 2%;

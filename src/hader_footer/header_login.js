@@ -17,7 +17,7 @@ const HeaderLog = () => {
               fontSize: "1.2rem",
               marginLeft: "1.6rem",
               zIndex: "1"
-            }}>Login </Link>
+            }}> <i>Login</i> </Link>
 
             <div className="Rectangle-5"></div>
             <div className="Line-23"></div>

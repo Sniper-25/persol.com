@@ -28,9 +28,9 @@ const Loc = () => {
         <div className="whole">
           <center>
             <article className="contact">
-              <header className="location-header">
+              <div className="location-header">
                 <h4>Location</h4>
-              </header>
+              </div>
               <div className="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16697418.71932186!2d37.79887474883809!3d11.99491214205749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1603dbd54684f731%3A0xa46b957a1482ac73!2sSana&#39;a%2C%20Yemen!5e0!3m2!1sen!2s!4v1741798368718!5m2!1sen!2s"
@@ -46,9 +46,9 @@ const Loc = () => {
           </center>
           <div>
             <article className="office">
-              <header className="office-header">
+              <div className="office-header">
                 <h4>Our offices</h4>
-              </header>
+              </div>
               <OfficeSection
                 title="S Main St Address"
                 location="S Main Streat, Hadih streat, Sana'a"
@@ -60,9 +60,9 @@ const Loc = () => {
             </article>
 
             <article className="business-hours">
-              <header className="hours-header">
+              <div className="hours-header">
                 <h4>Business Hours</h4>
-              </header>
+              </div>
               <section className="hours-section">
                 <p>
                   <span>Mon</span> 08:00 AM - 08:00 PM

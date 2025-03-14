@@ -1,6 +1,7 @@
     body {
       font-family: 'Segoe UI', sans-serif;
       line-height: 1.7;
+ 
 
     }
 
@@ -87,26 +88,66 @@
       margin-top: 30px;
     }
 
-    .team-images img {
+    .Img1 {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      transition: transform 0.3s, box-shadow 0.3s;
+      
+      background-image: url("/public/Aboutus.png");
+      background-position: center;
+      background-size: cover;
+    }
+    .Img2 {
       width: 110px;
       height: 110px;
       border-radius: 50%;
       transition: transform 0.3s, box-shadow 0.3s;
       cursor: pointer;
+      background-image: url("/public/image10.png");
+      background-position: center;
+      background-size: cover;
+    }
+    .Img3 {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+      background-image: url("/public/image11.png");
+      background-position: center;
+      background-size: cover;
     }
 
     .team-images img:hover {
       transform: scale(1.1);
       box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
     }
+    .Img1:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    }
+    .Img2:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    }
+    .Img3:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    }
 
     .main-image {
-      width: 250px;
+      width: 30rem;
+      height: 15rem;
       border-radius: 20px;
       margin: 40px auto;
       display: block;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
       transition: transform 0.3s ease;
+      background-image: url("/public/Mask.png");
+      background-position: center;
+      background-size: cover;
+      
     }
 
     .main-image:hover {

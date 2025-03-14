@@ -20,7 +20,7 @@ const Header = () => {
                 zIndex: "1",
               }}
             >
-              Contact Us
+              <i>Contact Us</i>
             </Link>
 
             <div className="Rectangle-5"></div>

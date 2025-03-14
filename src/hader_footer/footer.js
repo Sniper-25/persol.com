@@ -61,8 +61,9 @@ const Footer = () => {
                         <Link to="/Loc" id="end">  <FontAwesomeIcon icon={faLocationDot} id='foont_1' />60th Street - Behind the Long Mountain</Link>
                     </div>
                 </div>
+                <div className="Rectangle_13"></div>
             </div>
-            <div className="Rectangle_13"></div>
+   
         </footer>
     );
 };

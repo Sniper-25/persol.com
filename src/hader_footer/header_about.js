@@ -21,7 +21,7 @@ const Header = () => {
                 zIndex: "1",
               }}
             >
-              Abut Us
+              <i>Abut Us</i>
             </Link>
 
             <div className="Rectangle-5"></div>

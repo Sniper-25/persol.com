@@ -1,9 +1,5 @@
 import React, { useState } from "react";
-import Header from "../../hader_footer/header_feed";
 import "./Feedback.css";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import App from "../../App";
-import ContactUs from "../contact/contact";
 import Footer from "../../hader_footer/footer";
 
 
@@ -33,7 +29,7 @@ const Feed = () => {
     <div>
 
 
-      <div className="img1">
+      <div className="img1-1">
 
         <div className="depositphotos">
           <h1 className="feedback-title">Feedback</h1>

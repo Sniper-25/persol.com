@@ -35,7 +35,6 @@ const ContactUs = () => {
 
           <a  id="end" href="mailto:persol@gmail.com">  <FontAwesomeIcon icon={faEnvelope} id='foont_1' /><strong>Email : </strong>parsoll@gmail.com</a><br />
 
-          <a  id="end">  <FontAwesomeIcon icon={faEnvelope} id='foont_1' /><strong>Email : </strong>parsoll@gmail.com</a><br />
 
 
 

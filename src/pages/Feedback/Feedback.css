@@ -4,11 +4,11 @@
 }
 
 .feedback-container {
+    margin-top: -10rem;
     width: 40rem;
 
-
     text-align: center;
-    padding: 20px;
+    
 }
 #control{
     width: 100%;
@@ -72,7 +72,7 @@
     background-color: #555;
 }
 
-.img1 {
+.img1-1 {
     position: relative;
     display: flex;
     justify-content: center;
@@ -135,7 +135,7 @@
     width: 20rem;
     height: auto;
     position: absolute;
-    margin-top: 5rem;
+    margin-top: 3rem;
     width: 511px;
     height: 326px;
     display: flex;

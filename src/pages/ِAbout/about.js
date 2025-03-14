@@ -3,12 +3,8 @@ import "./about.css";
 import Footer from "../../hader_footer/footer";
 
 const About = () => {
-  const [message, setMessage] = useState("");
+  
 
-  const handleClick = (text) => {
-    setMessage(text);
-    setTimeout(() => setMessage(""), 3000);
-  };
 
   return (
     <div>
@@ -38,12 +34,12 @@ const About = () => {
         </p>
 
         <div className="team-images">
-          <img src="/Aboutus.png" alt="Team Member 1" onClick={() => handleClick("Team Member 1 clicked!")} />
-          <img src="/image10.png" alt="Team Member 2" onClick={() => handleClick("Team Member 2 clicked!")} />
-          <img src="/image11.png" alt="Team Member 3" onClick={() => handleClick("Team Member 3 clicked!")} />
+          <div className="Img1" />
+          <div  className="Img2"/>
+          <div className="Img3" />
         </div>
 
-        <img src="/Mask.png" className="main-image" alt="Main Image" onClick={() => handleClick("Nice Shades!")} />
+        <div className="main-image"/>
       </div>
 
       {/* Why Are We The Best Section */}
@@ -63,8 +59,8 @@ const About = () => {
         <p>Join the Persol family and elevate your style today. Your perfect pair is waiting!</p>
       </div>
 
-      {/* Notification Message */}
-      {message && <div className="notification">{message}</div>}
+      
+     
 
       <Footer />
     </div>
