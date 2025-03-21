@@ -53,7 +53,7 @@ const Loc = () => {
                 title="S Main St Address"
                 location="S Main Streat, Hadih streat, Sana'a"
                 phone="+967778088098"
-                email="persol@gmail.com"
+                email="mailto:farisatif7780@gmail.com"
               />
               
               
