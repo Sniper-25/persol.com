@@ -119,7 +119,6 @@ const Home = () => {
                   <b id="TextSpical">Price:</b> &lt;$420&gt;<br />
                   <b id="TextSpical">Offer:</b> $390
                 </div>
-                <a type="button" className="button-small1" href="#" id="read1">SORT</a>
               </div>
             </div>
 
@@ -137,7 +136,6 @@ const Home = () => {
                   <b id="TextSpical">Price:</b> &lt;$360&gt;<br />
                   <b id="TextSpical">Offer:</b> $330
                 </div>
-                <a className="button-small1" id="read1" href="#">SORT</a>
               </div>
             </div>
 
@@ -156,10 +154,7 @@ const Home = () => {
                   <b id="TextSpical">Price:</b> &lt;$999&gt;<br />
                   <b id="TextSpical">Offer:</b> $899
                 </div>
-                <a href="#" className="button-small1">
-                  SORT
-
-                </a>
+     
               </div>
             </div>
             <div className="card4">
@@ -177,10 +172,7 @@ const Home = () => {
                   <b id="TextSpical">Price:</b> &lt;$600&gt;<br />
                   <b id="TextSpical">Offer:</b> $500
                 </div>
-                <a href="#" className="button-small1">
-                  SORT
-
-                </a>
+ 
               </div>
             </div>
 
