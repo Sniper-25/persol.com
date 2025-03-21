@@ -154,7 +154,11 @@ const Home = () => {
                   <b id="TextSpical">Price:</b> &lt;$999&gt;<br />
                   <b id="TextSpical">Offer:</b> $899
                 </div>
+<<<<<<< HEAD
      
+=======
+
+>>>>>>> da58174 (hhhh)
               </div>
             </div>
             <div className="card4">
@@ -172,7 +176,11 @@ const Home = () => {
                   <b id="TextSpical">Price:</b> &lt;$600&gt;<br />
                   <b id="TextSpical">Offer:</b> $500
                 </div>
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> da58174 (hhhh)
               </div>
             </div>
 
