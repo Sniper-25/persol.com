@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import { Link } from 'react-router-dom';
 import './header.css';
 
@@ -21,7 +21,7 @@ const Header = () => {
                 zIndex: "1",
               }}
             >
-              <i>Abut Us</i>
+              <i>About Us</i>
             </Link>
 
             <div className="Rectangle-5"></div>
