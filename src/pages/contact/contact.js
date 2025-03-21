@@ -39,6 +39,13 @@ const ContactUs = () => {
 
 
          <a href="https://wa.me/+967778088098?text=Hi+Fares" id="end">  <FontAwesomeIcon icon={faPhoneFlip} id='foont_1' /><strong>Phone : </strong>+967778088098</a><br />
+         <a href="https://wa.me/+967773360830?text=Hi+abood issa" id="end">  <FontAwesomeIcon icon={faPhoneFlip} id='foont_1' /><strong>Phone : </strong>+967773360830</a><br />
+         <a href="https://wa.me/+967772456877?text=Hi+abduisalam" id="end">  <FontAwesomeIcon icon={faPhoneFlip} id='foont_1' /><strong>Phone : </strong>+967772456877</a><br />
+         <a href="https://wa.me/+967781961964?text=Hi+fakh" id="end">  <FontAwesomeIcon icon={faPhoneFlip} id='foont_1' /><strong>Phone : </strong>+967781961964</a><br />
+         <a href="https://wa.me/+967780248580?text=Hi+abdulkater" id="end">  <FontAwesomeIcon icon={faPhoneFlip} id='foont_1' /><strong>Phone : </strong>+967780248580</a><br />
+         
+
+
 
           <h3 id="end"><a>  <FontAwesomeIcon icon={faLocationDot} id='foont_1' /><strong>Address : </strong></a>60th Street - Behind the Long Mountain</h3>
         </div>
