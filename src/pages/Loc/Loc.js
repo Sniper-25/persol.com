@@ -1,6 +1,5 @@
 import React from "react";
 import './Loc.css';
-import Header from "../../hader_footer/headerLoc";
 import Footer from "../../hader_footer/footer";
 
 const OfficeSection = ({ title, location, phone, email }) => (
