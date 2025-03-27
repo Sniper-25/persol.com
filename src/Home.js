@@ -1,4 +1,3 @@
-
 import React from 'react';
 import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -76,7 +75,7 @@ const Home = () => {
               •Oakley is a company that cares about durability, strength and everything that concerns you.
             </h6>
             <a href="https://www.oakley.com" className="button-small">
-              Read More
+              Read More 
 
             </a>
           </div>
