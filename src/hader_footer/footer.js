@@ -46,7 +46,7 @@ const Footer = () => {
 
                     </div>
 
-                    {/* الجزء الأيمن */}
+                    {/* الجزء الأيمن   */}
                     <div className="right">
                         <h3 id="useful">Useful links</h3>
                         <div id="useful">
