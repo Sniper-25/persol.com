@@ -59,11 +59,10 @@ const Footer = () => {
                         <h3 id="useful">Contact</h3>
 
                         <a id="end" href="https://wa.me/+967778088098?text=Hi+Fares">  <FontAwesomeIcon icon={faPhoneFlip} id='foont_1' />+967 778088098</a><br />
-                        <a id="end" href="mailto:farisatif7780@gmail.com">  <FontAwesomeIcon icon={faEnvelope} id='foont_1' />parsoll@gmail.com</a><br />
+                        <a id="end" href="mailto:farisatif7780@gmail.com">  <FontAwesomeIcon icon={faEnvelope} id='foont_1' />farisatif7780@gmail.com</a><br />
 
                         <a id="end" href="https://wa.me/+967773360830?text=Hi+abood issa">  <FontAwesomeIcon icon={faPhoneFlip} id='foont_1' />+967773360830</a><br />
                 
-                        <a id="end" href="mailto:persol@gmail.com">  <FontAwesomeIcon icon={faEnvelope} id='foont_1' />parsoll@gmail.com</a><br />
 
                         <Link to="/Loc" id="end">  <FontAwesomeIcon icon={faLocationDot} id='foont_1' />60th Street - Behind the Long Mountain</Link>
                     </div>
