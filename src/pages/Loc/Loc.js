@@ -9,7 +9,7 @@ const OfficeSection = ({ title, location, phone, email }) => (
     <section>
       <p>{location}</p>
       <p>
-        <a href={`https://wa.me/qr/42QAOKUQK2TSH1`} target="_blank" style={{ color: 'black' }}>
+        <a href={`https://wa.me/+967778088098?text=Hi+Fares`} target="_blank" style={{ color: 'black' }}>
           {phone}
         </a>
       </p>
@@ -53,8 +53,9 @@ const Loc = () => {
                 title="S Main St Address"
                 location="S Main Streat, Hadih streat, Sana'a"
                 phone="+967778088098"
-                email="mailto:farisatif7780@gmail.com"
+                email="farisatif7780@gmail.com"
               />
+              
               
               
             </article>

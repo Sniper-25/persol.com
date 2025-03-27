@@ -33,7 +33,7 @@ const ContactUs = () => {
 
         <div className="contact-info">
 
-          <a  id="end" href="mailto:farisatif7780@gmail.com">  <FontAwesomeIcon icon={faEnvelope} id='foont_1' /><strong>Email : </strong>parsoll@gmail.com</a><br />
+          <a  id="end" href="mailto:farisatif7780@gmail.com">  <FontAwesomeIcon icon={faEnvelope} id='foont_1' /><strong>Email : </strong>farisatif7780@gmail.com</a><br />
 
 
 
