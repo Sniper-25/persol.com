@@ -233,7 +233,7 @@ const Home = () => {
 
               <a href='#' className="Rectangle-23">
 
-                <div className="Shop-now1">Shop Now</div>
+                <Link to = '/prod' className="Shop-now1">Shop Now</Link>
               </a>
             </div>
 

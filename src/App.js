@@ -11,12 +11,14 @@ import Loc from './pages/Loc/Loc';
 import Footer from './hader_footer/footer';
 import Register from './pages/Login/Register';
 import LoginFor from './pages/Login/login_for';
+import Prod from './prodects/prod';
 function App() {
     return (
 
         <Router>
             <Layout>
                 <Routes>
+                    <Route path='/prod' element ={<Prod />}></Route>
                     <Route path='/home' element={<Home />}></Route>
                     <Route path='/about' element={<About />}></Route>
                     <Route path='/feed' element={<Feed />}></Route>

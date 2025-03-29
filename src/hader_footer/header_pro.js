@@ -12,7 +12,7 @@ const Header = () => {
 
           <nav>
             <Link
-              to="/"
+              to="/product"
               style={{
                 color: "rgba(17, 17, 17, 0.98)",
                 fontWeight: "1000",
