@@ -120,7 +120,7 @@ const allProducts = [
   },
 
 ];
-const Prod = () => {
+const ProdC = () => {
   const [cart, setCart] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [popupProduct, setPopupProduct] = useState(null);
@@ -240,7 +240,7 @@ const Prod = () => {
 
       <div className="header">
         <img src={Image} alt="Logo" />
-        <h1>OAKLEY</h1>
+        <h1>ROUND</h1>
         <div className="cart" onClick={toggleCartSidebar}>
           🛒{cart.reduce((acc, item) => acc + item.quantity, 0)}
         </div>
@@ -352,4 +352,4 @@ const Prod = () => {
   );
 };
 
-export default Prod;
+export default ProdC;

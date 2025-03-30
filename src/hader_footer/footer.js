@@ -14,6 +14,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
+        <div className="con">
         <footer>
 
             <div className="footer">
@@ -71,6 +72,7 @@ const Footer = () => {
             </div>
    
         </footer>
+        </div>
     );
 };
 export default Footer;

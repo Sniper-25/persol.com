@@ -32,8 +32,14 @@
                     case "/Loc":
                         return <HeaderCon/>;   
                         case "/prod":
-                            return <HeaderPro/>
-            
+                            return <HeaderPro/>;
+                            case "/prodD":
+                                return <HeaderPro/>;
+                                case "/prodR":
+                                    return <HeaderPro/>;
+
+                   case "/prodC":
+                                    return <HeaderPro/>;
 
 
                 default:

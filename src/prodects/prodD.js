@@ -3,6 +3,7 @@ import './prod.css'; // تأكد من إضافة CSS هنا إذا كان لدي
 import { Link } from 'react-router-dom';
 import Footer from '../hader_footer/footer';
 import Image from '../PO_header_persol_logo.svg';
+
 // بيانات المنتجات الأولية
 const allProducts = [
   {
@@ -95,7 +96,7 @@ const allProducts = [
     brand: 'Chanel',
     model: 'Chic Cat-Eye',
     price: 650,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
+    imgSrc: ''
   },
   {
     id: 14,
@@ -120,7 +121,7 @@ const allProducts = [
   },
 
 ];
-const Prod = () => {
+const ProdD = () => {
   const [cart, setCart] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [popupProduct, setPopupProduct] = useState(null);
@@ -240,7 +241,7 @@ const Prod = () => {
 
       <div className="header">
         <img src={Image} alt="Logo" />
-        <h1>OAKLEY</h1>
+        <h1>DIOR</h1>
         <div className="cart" onClick={toggleCartSidebar}>
           🛒{cart.reduce((acc, item) => acc + item.quantity, 0)}
         </div>
@@ -352,4 +353,4 @@ const Prod = () => {
   );
 };
 
-export default Prod;
+export default ProdD;

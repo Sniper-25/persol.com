@@ -12,13 +12,19 @@ import Footer from './hader_footer/footer';
 import Register from './pages/Login/Register';
 import LoginFor from './pages/Login/login_for';
 import Prod from './prodects/prod';
+import ProdR from './prodects/prodR';
+import ProdD from './prodects/prodD';
+import ProdC from './prodects/prodC';
 function App() {
     return (
 
         <Router>
             <Layout>
                 <Routes>
-                    <Route path='/prod' element ={<Prod />}></Route>
+                    <Route path='/prodC' element={<ProdC />}></Route>
+                    <Route path='/prodD' element={<ProdD />}></Route>
+                    <Route path='/prodR' element={<ProdR />}></Route>
+                    <Route path='/prod' element={<Prod />}></Route>
                     <Route path='/home' element={<Home />}></Route>
                     <Route path='/about' element={<About />}></Route>
                     <Route path='/feed' element={<Feed />}></Route>
@@ -28,7 +34,7 @@ function App() {
                     <Route path='/Loc' element={<Loc />}></Route>
                     <Route path='/foo' element={<Footer />}></Route>
                     <Route path='/re' element={<Register />}></Route>
-                    <Route path='/forg' element ={<LoginFor/>}></Route>
+                    <Route path='/forg' element={<LoginFor />}></Route>
                 </Routes>
             </Layout>
         </Router>

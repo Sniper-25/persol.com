@@ -1,6 +1,6 @@
 import React from "react";
 import "./prodect.css"; // Ensure this CSS file is linked
-
+import { Link } from "react-router-dom";
 import Footer from "../../hader_footer/footer";
 const Product = () => {
   const handleShopNow = (brand) => {
@@ -26,9 +26,9 @@ const Product = () => {
             <div className="text text-bay-ban">
               •Bay-Ban has been producing since 1936, and holds the world-class
               standards for its ideal products.
-              <div className="shop-now-button shop-now-1" onClick={() => handleShopNow("Bay-Ban")}>
+              <Link to ='/prod' className="shop-now-button shop-now-1" onClick={() => handleShopNow("Bay-Ban")}>
                 <span className="shop-now">Shop now</span>
-              </div>
+              </Link>
             </div>
           </div>
 
@@ -39,9 +39,9 @@ const Product = () => {
             <div className="text text-dior">
               •Produced by Dior since 1990, attractive and comfortable features, as it
               contains advanced technology.
-              <div className="shop-now-button shop-now-2" onClick={() => handleShopNow("Dior")}>
+              <Link to ='/prodR' className="shop-now-button shop-now-2" onClick={() => handleShopNow("Dior")}>
                 <span className="shop-now">Shop now</span>
-              </div>
+              </Link>
             </div>
           </div>
 
@@ -54,9 +54,9 @@ const Product = () => {
               •Oakley is a company that cares about durability, strength and
               everything that concerns you.
 
-              <div className="shop-now-button shop-now-3" onClick={() => handleShopNow("Oakley")}>
+              <Link to='/prodD' className="shop-now-button shop-now-3" onClick={() => handleShopNow("Oakley")}>
                 <span className="shop-now">Shop now</span>
-              </div>
+              </Link>
             </div>
           </div>
 

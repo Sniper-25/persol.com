@@ -1,16 +1,22 @@
 .footer {
     position: relative;
     text-decoration: none;
-    color: #e1e0e0;
+    color: rgb(255, 255, 255);
     padding: 2rem;
     width: 100%;
     bottom: 0px;
     height: auto;
+    
     margin-top: 4rem;
     background: rgba(0, 0, 0, 0.5);
     border: 0.3rem solid #6b6b6b;
     border-radius: 1rem 1rem 0% 0%;
     box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
+}
+.con{
+z-index: -1;
+    
+
 }
 
 a {
@@ -92,7 +98,7 @@ strong {
     margin: 0rem 0 4rem;
     bottom: 0px;
     z-index: -1;
-    background-image: url("/public/Picsart_25-02-15_21-32-18-033.png");
+    background-image: url("/public/image.png");
     background-attachment: content;
     background-size: cover;
 }

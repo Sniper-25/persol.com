@@ -64,7 +64,7 @@ ul {
   height: 2.8rem;
   background-size: cover;
   background-attachment: content;
-  background-image: url('/public/Picsart_25-02-15_21-32-18-033.png');
+  background-image: url('/public/image.png');
 }
 
 .Line-23 {
@@ -111,18 +111,7 @@ ul {
   border: 0px;
 }
 
-.Rectangle-43 {
-  /*box persol*/
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  width: 4.6rem;
-  height: 2.8rem;
-  left: 0.3rem;
-  background: rgba(16, 15, 15, 0.5);
-  border-radius: 10px;
-}
+
 
 
 .Line2 {

@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import './prod.css'; // تأكد من إضافة CSS هنا إذا كان لديك ملفات CSS
-import { Link } from 'react-router-dom';
-import Footer from '../hader_footer/footer';
+ // تأكد من إضافة CSS هنا إذا كان لديك ملفات CSS
 import Image from '../PO_header_persol_logo.svg';
+
 // بيانات المنتجات الأولية
 const allProducts = [
   {
@@ -10,7 +9,7 @@ const allProducts = [
     brand: 'Ray-Ban',
     model: 'Classic Round',
     price: 1000,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
+    imgSrc: {Image}
   },
   {
     id: 2,
@@ -48,79 +47,9 @@ const allProducts = [
     imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
   },
   // مجموعة جديدة من المنتجات التي سيتم تحميلها عند التبديل
-  {
-    id: 7,
-    brand: 'Prada',
-    model: 'Modern Square',
-    price: 300,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 8,
-    brand: 'Fendi',
-    model: 'Luxury Oval',
-    price: 340,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 9,
-    brand: 'Chanel',
-    model: 'Chic Cat-Eye',
-    price: 999,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 10,
-    brand: 'Balenciaga',
-    model: 'Bold Rectangular',
-    price: 599,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 11,
-    brand: 'Louis Vuitton',
-    model: 'Vintage Round',
-    price: 400,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 12,
-    brand: 'Celine',
-    model: 'Elegant Oval',
-    price: 800,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 13,
-    brand: 'Chanel',
-    model: 'Chic Cat-Eye',
-    price: 650,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 14,
-    brand: 'Balenciaga',
-    model: 'Bold Rectangular',
-    price: 700,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 15,
-    brand: 'Louis Vuitton',
-    model: 'Vintage Round',
-    price: 750,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 16,
-    brand: 'Celine',
-    model: 'Elegant Oval',
-    price: 650,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
 
 ];
-const Prod = () => {
+const ProdH = () => {
   const [cart, setCart] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [popupProduct, setPopupProduct] = useState(null);
@@ -189,11 +118,7 @@ const Prod = () => {
     currentPage * productsPerPage
   );
 
-  // دالة لتغيير الصفحة
-  const handleChangePage = () => {
-    setCurrentPage(currentPage === 1 ? 2 : 1); // التبديل بين الصفحة 1 و 2
-  };
-
+  
   // دالة للتبديل بين حالة الفرز حسب السعر
   const toggleSortByPrice = () => {
     setSortByPrice(!sortByPrice);
@@ -240,7 +165,7 @@ const Prod = () => {
 
       <div className="header">
         <img src={Image} alt="Logo" />
-        <h1>OAKLEY</h1>
+        <h1></h1>
         <div className="cart" onClick={toggleCartSidebar}>
           🛒{cart.reduce((acc, item) => acc + item.quantity, 0)}
         </div>
@@ -290,11 +215,8 @@ const Prod = () => {
 
       {/* مربعات المنتجات الخاصة بالتبديل */}
       <div className="products-container">
-        <div onClick={handleChangePage} className="product arrow-box">
-          <span className="arrow">&#8594;</span>
-        </div>
+
       </div>
-      <Link to='/product' className="back-button"> Back</Link>
 
       {/* سلة المنتجات الجانبية */}
       <div>
@@ -347,9 +269,9 @@ const Prod = () => {
      
       
     </div>
-    <Footer />
+
     </div>
   );
 };
 
-export default Prod;
+export default ProdH;

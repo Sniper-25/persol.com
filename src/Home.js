@@ -6,6 +6,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import Footer from './hader_footer/footer';
 import Header from './header';
+import ProdH from './prodects/prodH';
 
 const Home = () => {
   return (
@@ -99,91 +100,8 @@ const Home = () => {
         <div className="Rectangle-32">
 
 
-          <div className="Rectangle-81">
-            <a href="#">  <FontAwesomeIcon icon={faArrowLeft} id='Arrow_left' /></a>
-            <a href="#">  <FontAwesomeIcon icon={faArrowRight} id='Arrow_right' /></a>
+    <ProdH/>
 
-            <div className="card1">
-              <h3 className="TEXT-BOX1">RAY-BAN</h3>
-              <div
-                className="img11_1"
-              />
-              <div className="Rectangle-10_1">
-
-                <div className="TEXT-BOX-U1">
-                  <b id="TextSpical">Brand:</b> Gucci<br />
-                  <b id="TextSpical">Model:</b> Retro Circle<br />
-
-                  <b id="TextSpical">Type:</b> Metal Frame Glasses<br />
-                  <b id="TextSpical">Price:</b> &lt;$420&gt;<br />
-                  <b id="TextSpical">Offer:</b> $390
-                </div>
-              </div>
-            </div>
-
-            <div className="card2">
-              <h3 className="TEXT-BOX1">DIOR</h3>
-              <div
-                className="img11_2"
-              />
-              <div className="Rectangle-10_1">
-
-                <div className="TEXT-BOX-U1">
-                  <b id="TextSpical">Brand:</b> Oakley<br />
-                  <b id="TextSpical">Model:</b> Clear Vision<br />
-                  <b id="TextSpical">Type:</b> Optical Glasses<br />
-                  <b id="TextSpical">Price:</b> &lt;$360&gt;<br />
-                  <b id="TextSpical">Offer:</b> $330
-                </div>
-              </div>
-            </div>
-
-            <div className="card3">
-              <h3 className="TEXT-BOX1">OAKLEY<br />
-              </h3>
-              <img
-                className="img11_3"
-              />
-              <div className="Rectangle-10_1">
-
-                <div className="TEXT-BOX-U1">
-                  <b id="TextSpical">Brand:</b> OAKLEY<br />
-                  <b id="TextSpical">Model:</b> Classic Round<br />
-                  <b id="TextSpical">Type:</b> Polarized Sunglasses<br />
-                  <b id="TextSpical">Price:</b> &lt;$999&gt;<br />
-                  <b id="TextSpical">Offer:</b> $899
-                </div>
-
-              </div>
-            </div>
-            <div className="card4">
-              <h3 className="TEXT-BOX1">Round<br />
-              </h3>
-              <img
-                className="img11_3"
-              />
-              <div className="Rectangle-10_1">
-
-                <div className="TEXT-BOX-U1">
-                  <b id="TextSpical">Brand:</b> Round<br />
-                  <b id="TextSpical">Model:</b> Classic Round<br />
-                  <b id="TextSpical">Type:</b> Polarized Sunglasses<br />
-                  <b id="TextSpical">Price:</b> &lt;$600&gt;<br />
-                  <b id="TextSpical">Offer:</b> $500
-                </div>
-
-              </div>
-            </div>
-
-
-          </div>
-
-          <div className="header_search">
-            <div className="search-sort">
-              <input type="text" className="search" placeholder="Search..." />
-              <button className="sort">Sort by Price</button>
-            </div>
-          </div>
 
         </div>
       </div>
@@ -199,10 +117,11 @@ const Home = () => {
             <div className="img-02"></div>
             <div className="text-pre">Prescription available<br /> Sunglasses</div>
 
-            <a href='#' className="Rectangle-23">
+       
+            <Link to ='/prodD' className="Rectangle-23">
 
-              <div className="Shop-now1">Shop Now</div>
-            </a>
+<div className="Shop-now1">Shop Now</div>
+</Link>
           </div>
 
         </div>
@@ -214,10 +133,11 @@ const Home = () => {
               <div className="img-02_1"></div>
               <div className="text-pre">Prescription available<br /> Sunglasses</div>
 
-              <a href='#' className="Rectangle-23">
+       
+              <Link to ='/prodR' className="Rectangle-23">
 
                 <div className="Shop-now1">Shop Now</div>
-              </a>
+                </Link>
             </div>
 
           </div>
@@ -247,10 +167,10 @@ const Home = () => {
             <div className="Rectangle-22_1">
               <div className="text-pre">Prescription available<br /> Roundglasses</div>
 
-              <a href='#' className="Rectangle-23">
+              <Link to ='/prodC' className="Rectangle-23">
 
                 <div className="Shop-now1">Shop Now</div>
-              </a>
+                </Link>
             </div>
 
           </div>
