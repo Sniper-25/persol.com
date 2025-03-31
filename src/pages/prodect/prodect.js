@@ -1,7 +1,9 @@
 import React from "react";
+import CartSidebar from "../../prodects/CartSidebar";
 import "./prodect.css"; // Ensure this CSS file is linked
 import { Link } from "react-router-dom";
 import Footer from "../../hader_footer/footer";
+
 const Product = () => {
   const handleShopNow = (brand) => {
     console.log(`Redirecting to shop for ${brand}...`);
@@ -26,7 +28,7 @@ const Product = () => {
             <div className="text text-bay-ban">
               •Bay-Ban has been producing since 1936, and holds the world-class
               standards for its ideal products.
-              <Link to ='/prod' className="shop-now-button shop-now-1" onClick={() => handleShopNow("Bay-Ban")}>
+              <Link to ='/prodC' className="shop-now-button shop-now-1" onClick={() => handleShopNow("Bay-Ban")}>
                 <span className="shop-now">Shop now</span>
               </Link>
             </div>
@@ -59,6 +61,8 @@ const Product = () => {
               </Link>
             </div>
           </div>
+
+
 
         </div>
       </div>

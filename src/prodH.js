@@ -1,130 +1,20 @@
 import React, { useState } from 'react';
-import CartSidebar from './CartSidebar';
-import Prod from './prod.css';
-import Feed from '../pages/Feedback/Feedback';
-import { Link } from 'react-router-dom';
-import Footer from '../hader_footer/footer'; 
+import CartSidebar from './prodects/CartSidebar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import Image from './1.jpg';  // تعديل المسار هنا
+import Footer from './hader_footer/footer';
 
-// بيانات المنتجات الأولية
 const allProducts = [
-  {
-    id: 1,
-    brand: 'Ray-Ban',
-    model: 'Classic Round',
-    price: 1000,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 2,
-    brand: 'Oakley',
-    model: 'Clear Vision',
-    price: 499,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 3,
-    brand: 'Gucci',
-    model: 'Retro Circle',
-    price: 250,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 4,
-    brand: 'Nike',
-    model: 'Speed Vision',
-    price: 350,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 5,
-    brand: 'Versace',
-    model: 'Luxury Frame',
-    price: 799,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 6,
-    brand: 'Dior',
-    model: 'Elegant Shades',
-    price: 850,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  // مجموعة جديدة من المنتجات التي سيتم تحميلها عند التبديل
-  {
-    id: 7,
-    brand: 'Prada',
-    model: 'Modern Square',
-    price: 300,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 8,
-    brand: 'Fendi',
-    model: 'Luxury Oval',
-    price: 340,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 9,
-    brand: 'Chanel',
-    model: 'Chic Cat-Eye',
-    price: 999,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 10,
-    brand: 'Balenciaga',
-    model: 'Bold Rectangular',
-    price: 599,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 11,
-    brand: 'Louis Vuitton',
-    model: 'Vintage Round',
-    price: 400,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 12,
-    brand: 'Celine',
-    model: 'Elegant Oval',
-    price: 800,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 13,
-    brand: 'Chanel',
-    model: 'Chic Cat-Eye',
-    price: 650,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 14,
-    brand: 'Balenciaga',
-    model: 'Bold Rectangular',
-    price: 700,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 15,
-    brand: 'Louis Vuitton',
-    model: 'Vintage Round',
-    price: 750,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-  {
-    id: 16,
-    brand: 'Celine',
-    model: 'Elegant Oval',
-    price: 650,
-    imgSrc: '../Desktop/APPS/frist-project/public/logo192.png'
-  },
-
+  { id: 1, brand: 'Ray-Ban', model: 'Classic Round', price: 1000, imgSrc: Image },  // استخدام الصورة هنا
+  { id: 2, brand: 'Oakley', model: 'Clear Vision', price: 499, imgSrc: Image },  // مسار الصورة في مجلد public
+  { id: 3, brand: 'Gucci', model: 'Retro Circle', price: 250, imgSrc: Image },
+  { id: 4, brand: 'Nike', model: 'Speed Vision', price: 350, imgSrc: Image },
+  { id: 5, brand: 'Versace', model: 'Luxury Frame', price: 799, imgSrc: Image },
+  { id: 6, brand: 'Dior', model: 'Elegant Shades', price: 850, imgSrc: Image }
 ];
-const ProdC = () => {
+
+const ProdH = () => {
   const [cart, setCart] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [popupProduct, setPopupProduct] = useState(null);
@@ -187,22 +77,18 @@ const ProdC = () => {
   const closePopup = () => {
     setPopupProduct(null);
   };
-  const handleChangePage = () => {
-    setCurrentPage(currentPage === 1 ? 2 : 1); // التبديل بين الصفحة 1 و 2
-  };
+
 
 
   return (
     <div className="app-container">
       <div className='co'>
-      <h2>OAKLEY</h2>
         <div className="search-container">
           <input type="text" className="search-bar" placeholder="Search" value={searchQuery} onChange={handleSearch} />
           <button className="feedback-input" onClick={toggleSortByPrice}>
             {sortByPrice ? 'Sort by Default' : 'Sort by Price'}
           </button>
         </div>
-
         <div className="header">
           <div className="cart" onClick={toggleCartSidebar}>
           <FontAwesomeIcon icon={faCartShopping} id='cart' /> {cart.reduce((acc, item) => acc + item.quantity, 0)}
@@ -242,16 +128,9 @@ const ProdC = () => {
           toggleCartSidebar={toggleCartSidebar}
         />
       </div>
-            {/* مربعات المنتجات الخاصة بالتبديل */}
-            <div className="products-container">
-        <div onClick={handleChangePage} className="product arrow-box">
-          <span className="arrow">&#8594;</span>
-        </div>
-      </div>
-      <Link to='/product' className="back-button"> Back</Link>
-      <Footer />
+  
     </div>
   );
 };
 
-export default ProdC;
+export default ProdH;

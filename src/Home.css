@@ -28,7 +28,7 @@ body{
 }
 
 .exam {
-  z-index: 1;
+  z-index: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -353,7 +353,7 @@ body{
 
 .Rectangle-35 {
 
-  z-index: 1;
+  z-index: -1;
   position: absolute;
   width: 3.7rem;
   height: 3.7rem;
@@ -534,6 +534,7 @@ body{
 }
 
 .Rectangle-81_1 {
+
   box-sizing: border-box;
   position: relative;
   left: 0px;
@@ -551,7 +552,7 @@ body{
 }
 
 .Rectangle-15 {
-
+  z-index: -10000;
   position: absolute;
   box-sizing: border-box;
   width: 100%;

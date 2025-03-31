@@ -11,13 +11,15 @@ import Loc from './pages/Loc/Loc';
 import Footer from './hader_footer/footer';
 import Register from './pages/Login/Register';
 import LoginFor from './pages/Login/login_for';
-import Prod from './prodects/prod';
+import Prod from './prod';
 import ProdR from './prodects/prodR';
 import ProdD from './prodects/prodD';
 import ProdC from './prodects/prodC';
+
 function App() {
     return (
-
+<div>
+ 
         <Router>
             <Layout>
                 <Routes>
@@ -38,7 +40,7 @@ function App() {
                 </Routes>
             </Layout>
         </Router>
-
+        </div>
     );
 }
 

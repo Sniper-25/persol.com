@@ -1,12 +1,10 @@
 import React from 'react';
 import './Home.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+
 import { Link } from 'react-router-dom';
 import Footer from './hader_footer/footer';
 import Header from './header';
-import ProdH from './prodects/prodH';
+import ProdH from './prodH';
 
 const Home = () => {
   return (
@@ -153,7 +151,7 @@ const Home = () => {
 
               <a href='#' className="Rectangle-23">
 
-                <Link to = '/prod' className="Shop-now1">Shop Now</Link>
+                <Link to = '/prodC' className="Shop-now1">Shop Now</Link>
               </a>
             </div>
 
@@ -167,7 +165,7 @@ const Home = () => {
             <div className="Rectangle-22_1">
               <div className="text-pre">Prescription available<br /> Roundglasses</div>
 
-              <Link to ='/prodC' className="Rectangle-23">
+              <Link to ='/prod' className="Rectangle-23">
 
                 <div className="Shop-now1">Shop Now</div>
                 </Link>
