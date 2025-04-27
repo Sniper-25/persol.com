@@ -61,7 +61,7 @@ const Loc = () => {
 
             <article className="business-hours">
               <div className="hours-header">
-                <h4>Business Hours</h4>
+                <h4>Business-Hours</h4>
               </div>
               <section className="hours-section">
                 <p>
