@@ -24,7 +24,7 @@ const Home = () => {
             <p style={{ margin: 'auto' }}>Read More</p>
           </Link>
           <Link to="/contact" className="Rectangle-31">
-            <p style={{ margin: 'auto' }}>Order New</p>
+            <p style={{ margin: 'auto' }}>Order now</p>
           </Link>
           <div className="Line2-2"></div>
         </div>
@@ -41,7 +41,7 @@ const Home = () => {
           <div className="Rectangle-10">
             <h3 className="TEXT-BOX">RAY-BAN</h3>
             <h6 className="TEXT-BOX-U">
-              •Bay-Ban has been producing since 1936, and holds the world-class standards for its ideal products.
+              •Ray-Ban has been producing since 1936, and holds the world-class standards for its ideal products.
             </h6>
             <a type="button" className="button-small" href="https://www.ray-ban.com/usa" id="read">Read More</a>
           </div>
