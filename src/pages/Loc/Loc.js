@@ -46,7 +46,7 @@ const Loc = () => {
           <div>
             <article className="office">
               <div className="office-header">
-                <h4>Our offices</h4>
+                <h4>Our-offices</h4>
               </div>
               <OfficeSection
                 title="S Main St Address"
