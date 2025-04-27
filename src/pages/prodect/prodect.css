@@ -27,6 +27,7 @@
 .rectangle-134 {
     display: flex;
     justify-content: center;
+    
 
     width: 100%;
     height: 7rem;
@@ -209,6 +210,7 @@
     justify-content: center;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
+    border-radius: 100%;
 
 
 }
