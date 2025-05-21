@@ -24,7 +24,7 @@ const Home = () => {
             <p style={{ margin: 'auto' }}>Read More</p>
           </Link>
           <Link to="/contact" className="Rectangle-31">
-            <p style={{ margin: 'auto' }}>Order New</p>
+            <p style={{ margin: 'auto' }}>Orde New</p>
           </Link>
           <div className="Line2-2"></div>
         </div>
