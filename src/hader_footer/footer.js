@@ -9,12 +9,13 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faPhoneFlip } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
-
+import ScrollingTicker from './ScrollingTicker.js';
 
 
 const Footer = () => {
     return (
         <div className="con">
+               <ScrollingTicker/>
         <footer>
 
             <div className="footer">
@@ -70,7 +71,7 @@ const Footer = () => {
                 </div>
                 <div className="Rectangle_13"></div>
             </div>
-   
+
         </footer>
         </div>
     );

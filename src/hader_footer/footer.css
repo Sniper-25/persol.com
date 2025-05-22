@@ -7,10 +7,9 @@
     bottom: 0px;
     height: auto;
    
-    margin-top: 4rem;
-    background: rgba(0, 0, 0, 0.5);
+ 
+    background: rgba(4, 0, 0, 0.5);
     border: 0.3rem solid #6b6b6b;
-    border-radius: 1rem 1rem 0% 0%;
     box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
 }
 .con{
@@ -97,7 +96,7 @@ strong {
     height: 5.1rem;
     margin: 0rem 0 4rem;
     bottom: 0px;
-    z-index: -1;
+    z-index: 1000;
     background-image: url("/public/image.png");
     background-attachment: content;
     background-size: cover;
@@ -122,3 +121,32 @@ strong {
     font-size: 1.2rem;
     margin-right: 1rem;
 }
+
+.ticker-container {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .ticker-content {
+    display: inline-block;
+    padding-left: 100%;
+    animation: ticker 20s linear infinite;
+  }
+  
+  .ticker-content span {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  @keyframes ticker {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }

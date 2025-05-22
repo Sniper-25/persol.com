@@ -88,7 +88,9 @@ const ProdD = () => {
   return (
     <div className="app-container">
       <div className='co'>
-        <h2>DIOR</h2>
+        <h2>DIOR
+          
+        </h2>
         <div className="search-container">
           <input type="text" className="search-bar" placeholder="Search" value={searchQuery} onChange={handleSearch} />
           <button className="feedback-input" onClick={toggleSortByPrice}>

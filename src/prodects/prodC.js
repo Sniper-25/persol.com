@@ -146,9 +146,7 @@ const ProdC = () => {
     });
   };
 
-  const handleIncreaseQuantity = (productId) => {
-    setCart(prevCart => prevCart.map(item => item.id === productId ? { ...item, quantity: item.quantity + 1 } : item));
-  };
+ 4
 
   const handleDecreaseQuantity = (productId) => {
     setCart(prevCart => prevCart.map(item => item.id === productId && item.quantity > 1 ? { ...item, quantity: item.quantity - 1 } : item));
